@@ -7,7 +7,6 @@ class BotController < ActionController::Base
               "speech": "#{city} is a nice place",
               "displayText": "#{city} is a nice place",
               "data": "",
-              "contextOut": [{"name":"weather", "lifespan":2, "parameters":{"city":"#{city}"}}],
               "source": "Chatbottest"
             }
 
